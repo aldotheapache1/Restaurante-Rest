@@ -14,9 +14,9 @@
 		<header>
 			<nav>
 				<ul>
-					<li class="current_page_item"><a href="index.php">Menu</a></li>
-					<li><a href="sobre.php">Sobre</a></li>
-					<li><a href="contato.html">Contato</a></li>
+					<li><a href="/menu-da-semana">Menu</a></li>
+					<li><a href="/sobre">Sobre</a></li>
+					<li><a href="/contato">Contato</a></li>
 				</ul>
 			</nav>
 
