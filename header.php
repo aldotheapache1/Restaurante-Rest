@@ -2,9 +2,11 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title><?php bloginfo('name')?></title>
+		<title><?php bloginfo('name'); ?> | <?php wp_title(''); ?> <?php the_field('titulo_seo'); ?></title>
+		<meta name="description" content="<?php bloginfo('name'); ?> | <?php wp_title(''); ?> <?php the_field('description_seo'); ?>">
 
 		<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="<?php the_field('link_favicon'); ?>" />
 		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
 	</head>
 	<?php wp_head()?>
